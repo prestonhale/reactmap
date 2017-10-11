@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Map from './map/Map.js';
 import logo from './logo.svg';
 import './App.css';
 
@@ -74,7 +75,7 @@ class Content extends React.Component {
       break;
     }
     return (
-      <div class="content">
+      <div className="content">
         <a onClick={this.displayResume}>
           <h2>Resume</h2>
         </a>
@@ -90,10 +91,11 @@ class Content extends React.Component {
   }
 }
 
-
 class App extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+    }
   }
 
   render() {
@@ -103,6 +105,7 @@ class App extends Component {
           <a>You found a place!</a>
         </h1>
         <Content contentType='empty' />
+        <Map />
       </div>
     )
   }
