@@ -1,7 +1,7 @@
 {
   "name": "theprestonhale.com",
   "version": "0.1.0",
-  "homepage": "https://prestonhale.github.io/",
+  "homepage": "https://prestonhale.github.io/preston/",
   "private": true,
   "dependencies": {
     "react": "^16.0.0",
